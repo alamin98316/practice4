@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+</head>
+
+<style type="text/css">
+    .color{
+        color: red;
+        font-size: 20px;
+    }
+    
+    #submit{
+width: 460px;
+    height: 50px;
+    background-color: red;
+    color: #fff;
+    font-size: 25px;
+        margin-left: 249px;
+    }
+    
+    .form{
+        
+        width: 960px;
+        margin: 0 auto;
+    }
+    
+    </style>
+
+<body>
+
+   <div class="form">
+    <form action="" id="form" method="post">
+
+        <table align="center" cellpadding="10px" style="background: #aabbcc; font-family: Arial; font-size: 20px">
+
+            <tr>
+
+                <td><label>First Name</label></td>
+                <td>
+                    <div id="er1" class="color"></div>
+                    :<input type="text" name="firstname" id="firstname">
+
+                </td>
+            </tr>
+
+
+            <tr>
+
+                <td><label>Last Name</label></td>
+                <td>
+                    <div id="er2" class="color"></div>
+                    :<input type="text" name="lastname" id="lastname">
+
+                </td>
+            </tr>
+            
+
+            <tr>
+
+                <td><label>Date of Birth</label></td>
+                <td>
+                    :<input type="date" name="dateofbirth" id="dateOfbirth">
+
+                </td>
+            </tr>
+             
+             
+              <tr>
+
+                <td><label>Your Country</label></td>
+                <td>
+                   :<select style="width: 150px">
+                    <option>Vutan</option>
+                    <option>UAS</option>
+                    <option>India</option>
+                    <option selected>Bangladesh</option>
+                    </select>
+
+                </td>
+            </tr>
+            
+            
+               <tr>
+
+                <td><label>Gender</label></td>
+                <td>
+                    :<input type="radio" name="gender" id="Male">Male
+                    <input type="radio" name="gender" id="Female">Female
+                    <input type="radio" name="gender" id="Other">Other
+
+                </td>
+            </tr>
+            
+      <tr>
+
+                <td><label>Address</label></td>
+                <td>
+                   :<textarea style="color: darkblue; font-size: 20px;font-weight: bold"></textarea>
+                </td>
+            </tr>
+
+
+       
+         <tr>
+
+                <td><label>Password</label></td>
+                <td>
+                    <div id="er3" class="color"></div>
+                    :<input type="password" name="password" id="password">
+
+                </td>
+            </tr>
+            
+              <tr>
+
+                <td><label>Conform Password</label></td>
+                <td>
+                    <div id="er4" class="color"></div>
+                    :<input type="password" name="cmpassword" id="cmpassword">
+
+                </td>
+            </tr>
+        
+
+        
+    
+
+        </table>
+
+
+   
+       <button type="button" id="submit" onclick="int()">Submit</button>
+       
+    </form>
+
+</div>
+
+ 
+
+<script src="script.js"></script>
+    
+    
+    
+    
+    
+    
+    
+    
+   
+
+</body>
+
+</html>
